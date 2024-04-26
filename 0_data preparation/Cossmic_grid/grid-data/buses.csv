@@ -1,0 +1,14 @@
+name,v_nom,x,y,control
+ind_1,0.4,-0.5,4,PQ
+ind_2,0.4,-1,5,PQ
+ind_3,0.4,-1.5,4,PQ
+res_1,0.4,0.5,3,PQ
+res_2,0.4,0.5,2,PQ
+res_3,0.4,1,1,PQ
+res_4,0.4,1.5,2,PQ
+res_5,0.4,1.5,3,PQ
+res_6,0.4,1,5,PQ
+pub_1,0.4,0.5,4,PQ
+pub_2,0.4,1.5,4,PQ
+grid_import_1,10,1,6,Slack
+grid_import_2,10,-1,6,Slack

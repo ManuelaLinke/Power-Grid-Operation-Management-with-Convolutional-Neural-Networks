@@ -1,0 +1,13 @@
+name,bus0,bus1,type,length,v_nom,parallel
+lv_ind_2_ind_3,ind_2,ind_3,NAYY 4x150 SE,0.2,0.4,3
+lv_ind_3_ind_1,ind_3,ind_1,NAYY 4x150 SE,0.2,0.4,2
+lv_ind_1_ind_2,ind_1,ind_2,NAYY 4x150 SE,0.2,0.4,3
+lv_ind_3_res_3,ind_3,res_3,NAYY 4x150 SE,0.2,0.4,1
+lv_res_3_res_2,res_3,res_2,NAYY 4x150 SE,0.03,0.4,2
+lv_res_2_res_1,res_2,res_1,NAYY 4x150 SE,0.03,0.4,2
+lv_res_1_pub_1,res_1,pub_1,NAYY 4x150 SE,0.03,0.4,2
+lv_pub_1_res_6,pub_1,res_6,NAYY 4x150 SE,0.03,0.4,2
+lv_res_3_res_4,res_3,res_4,NAYY 4x150 SE,0.05,0.4,2
+lv_res_4_res_5,res_4,res_5,NAYY 4x150 SE,0.05,0.4,2
+lv_res_5_pub_2,res_5,pub_2,NAYY 4x150 SE,0.05,0.4,2
+lv_pub_2_res_6,pub_2,res_6,NAYY 4x150 SE,0.05,0.4,2

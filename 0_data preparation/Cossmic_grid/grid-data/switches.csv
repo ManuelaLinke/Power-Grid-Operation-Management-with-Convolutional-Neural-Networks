@@ -1,0 +1,15 @@
+bus,element,et,closed
+ind_2,lv_ind_2_ind_3,l,True
+ind_3,lv_ind_3_ind_1,l,False
+ind_2,lv_ind_1_ind_2,l,True
+ind_3,lv_ind_3_res_3,l,False
+res_2,lv_res_3_res_2,l,True
+res_1,lv_res_2_res_1,l,True
+pub_1,lv_res_1_pub_1,l,True
+res_6,lv_pub_1_res_6,l,True
+res_4,lv_res_3_res_4,l,False
+res_5,lv_res_4_res_5,l,True
+pub_2,lv_res_5_pub_2,l,True
+res_6,lv_pub_2_res_6,l,True
+ind_2,trafo_630kVA,t,True
+res_6,trafo_400kVA,t,True
