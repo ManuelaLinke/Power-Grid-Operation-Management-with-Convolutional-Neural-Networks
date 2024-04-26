@@ -29,6 +29,7 @@ For using these scripts you need to take care, that
 ## Installation
 
 Create Environment:
+
 ```conda create -n cnn_regler python=3.10.*```
 ```pip install -r requirements.txt```
 
@@ -63,7 +64,7 @@ It leans heavily on the following Python packages:
 -   [pandapower](http://pandapower.org/) for power system modeling, analysis and optimization. 
 -   [numpy](http://www.numpy.org/) for calculations, such as linear algebra and matrix calculations
 -   [matplotlib](https://matplotlib.org/) for plotting
--   [tensorflow](https://www.tensorflow.org/) and Keras (https://keras.io/) for the CNN model 
+-   [tensorflow](https://www.tensorflow.org/) and [Keras] (https://keras.io/) for the CNN model 
 -   [jupyterlab](https://jupyter.org/) as interactive development environment  
 
 
