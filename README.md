@@ -1,7 +1,6 @@
 # Power Grid Operation Management with Convolutional Neural Networks
 
 [![Python version](https://img.shields.io/badge/python-3.10.*-violet.svg)](https://img.shields.io/badge/python-3.10.*-violet)
-[![License](hhttps://img.shields.io/badge/license-xxx-blue)](LICENSE)
 [![Funding](https://img.shields.io/badge/Project-AI4Grids-%23fcba03?link=https%3A%2F%2Fwww.htwg-konstanz.de%2Fhochschule%2Fprojekte%2Fai4grids%2Fueber-ai4grids%2F.svg)](https://img.shields.io/badge/Project-AI4Grids-%23fcba03?link=https%3A%2F%2Fwww.htwg-konstanz.de%2Fhochschule%2Fprojekte%2Fai4grids%2Fueber-ai4grids%2F)
 
 This project is used for the development and investigation of a grid optimization tool based on convolutional neural networks (CNNs) with the aim of avoiding supply bottlenecks through intelligent use of the existing grid infrastructure and thus minimizing the need for grid expansion measures.
@@ -10,7 +9,9 @@ This project is developed and maintained by [Manuela Linke](https://www.research
 
 This research was funded by the [Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection (BMUV)](https://www.bmuv.de/) based on a resolution of the German Bundestag as part of the Reasearch Project [AI4Grids](https://www.htwg-konstanz.de/hochschule/projekte/ai4grids/ueber-ai4grids/).
 
-![graphical_abtract](./doc/img/Graphical Abstract_V3.png)
+%![graphical_abtract](/doc/img/CNN Architecture.png)
+
+[[file:doc/img/CNN Architecture.png]]
 ## Highlights
 
 -   Grid operation management based on convolutional neural networks with a maximum accuracy of 99.06 %
