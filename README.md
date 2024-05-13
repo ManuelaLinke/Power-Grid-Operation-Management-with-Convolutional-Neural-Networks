@@ -9,9 +9,9 @@ This project is developed and maintained by [Manuela Linke](https://www.research
 
 This research was funded by the [Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection (BMUV)](https://www.bmuv.de/) based on a resolution of the German Bundestag as part of the Reasearch Project [AI4Grids](https://www.htwg-konstanz.de/hochschule/projekte/ai4grids/ueber-ai4grids/).
 
-%![graphical_abtract](/doc/img/CNN Architecture.png)
+![graphical_abtract](doc/img/CNN Architecture.jpg)
 
-[[file:doc/img/CNN Architecture.png]]
+[[file:doc/img/CNN Architecture.jpg]]
 ## Highlights
 
 -   Grid operation management based on convolutional neural networks with a maximum accuracy of 99.06 %
