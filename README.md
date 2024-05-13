@@ -9,7 +9,7 @@ This project is developed and maintained by [Manuela Linke](https://www.research
 
 This research was funded by the [Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection (BMUV)](https://www.bmuv.de/) based on a resolution of the German Bundestag as part of the Reasearch Project [AI4Grids](https://www.htwg-konstanz.de/hochschule/projekte/ai4grids/ueber-ai4grids/).
 
-![graphical_abtract](/doc/img/CNN_Architecture.png)
+![graphical_abtract](/doc/img/Graphical_Abstract_V3.png)
 
 ## Highlights
 
@@ -46,6 +46,7 @@ The virtual grid used in this project:
 Flowchart of the training data generation algorithm:
 ![flowchart](/doc/img/Dataset_generation.png)
 
+The Architecture of the CNN:
 ![CNN Architecture](/doc/img/CNN_Architecture.png)
 
 ## Generated Datasets
