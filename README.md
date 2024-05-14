@@ -91,6 +91,10 @@ Please use the following BibTeX:
     }
 
 
-# Licence
+## Licence
 
-This project is licensed under the open source [xx License]().
+This project is licensed under [Apache License 2.0](LICENSE)
+
+## Acknowledgments
+
+Parts of this work have been funded by the Federal Ministry for the Environment, Nature Conservation and Nuclear Safety due to a decision of the German Federal Parliament (AI4Grids: 67KI2012A).
