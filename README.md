@@ -41,7 +41,7 @@ Note: adjust maximum number of workers to you number of kernels
 ## Screenshots
 
 The virtual grid used in this project:
-![virtual grid](/doc/img/Cossmic_grid_EN-1.png)
+![virtual grid](/doc/img/Cossmic_grid_EN-1.png){: width="100px" }
 
 Flowchart of the training data generation algorithm:
 ![flowchart](/doc/img/Dataset_generation.png)
