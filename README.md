@@ -40,14 +40,9 @@ Note: adjust maximum number of workers to you number of kernels
 
 ## Screenshots
 
-The virtual grid used in this project:
-![virtual grid](/doc/img/Cossmic_grid_EN-1.png){: width="100px" }
-
-Flowchart of the training data generation algorithm:
-![flowchart](/doc/img/Dataset_generation.png)
-
-The Architecture of the CNN:
-![CNN Architecture](/doc/img/CNN_Architecture.png)
+| The virtual grid used in this project | Flowchart of the training data generation algorithm |
+|:-------------------------------------:|:---------------------------------------------------:|
+| ![virtual grid](/doc/img/Cossmic_grid_EN-1.png) | ![flowchart](/doc/img/Dataset_generation.png) |
 
 ## Generated Datasets
 
