@@ -97,4 +97,4 @@ This project is licensed under [Apache License 2.0](LICENSE).
 
 ## Acknowledgments
 
-The authors would like to thank Marcel Arpogaus for implementation of the parallelisation of the training process. His contributions have significantly reduced the computational time for the training data generation. Furthermore, the authors thank Jan Weccard for his assistance with the first implementation of the physical approach.
+The authors would like to thank [Marcel Arpogaus](https://github.com/MArpogaus) for implementation of the parallelisation of the training process. His contributions have significantly reduced the computational time for the training data generation. Furthermore, the authors thank Jan Weccard for his assistance with the first implementation of the physical approach.
