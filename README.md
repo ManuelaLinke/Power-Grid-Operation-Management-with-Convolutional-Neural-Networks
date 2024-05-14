@@ -18,7 +18,7 @@ This research was funded by the [Federal Ministry for the Environment, Nature Co
 -   Two approaches investigated for the implementation of input data
 -   Paving the way for further integration of renewable energy sources as well as heat pumps and electrical cars into the existing grid without grid expansion
 
-## For using your own data: 
+## For using your own data
 For using these scripts you need to take care, that 
 - the order of nodes in you pandapower grid is the same as the order of loads in the grid
 - If you have nodes that are not connected to a load you need to implement an exeption
@@ -36,7 +36,7 @@ For using the script to generate the training data:
 
 ```python 2_Generate_Training_Data.py . data --max_workers=30```
 
-Note: adjust maximum number of workers to you number of kernels
+Note: adjust maximum number of workers to you number of kernels.
 
 ## Screenshots
 
@@ -93,7 +93,7 @@ Please use the following BibTeX:
 
 ## Licence
 
-This project is licensed under [Apache License 2.0](LICENSE)
+This project is licensed under [Apache License 2.0](LICENSE).
 
 ## Acknowledgments
 
