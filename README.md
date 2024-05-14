@@ -97,5 +97,4 @@ This project is licensed under [Apache License 2.0](LICENSE)
 
 ## Acknowledgments
 
-This research was funded by the Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection (BMUV) based on a resolution of the German Bundestag (AI4Grids: 67KI2012A). 
 The authors would like to thank Marcel Arpogaus for implementation of the parallelisation of the training process. His contributions have significantly reduced the computational time for the training data generation. Furthermore, the authors thank Jan Weccard for his assistance with the first implementation of the physical approach.
