@@ -4,6 +4,8 @@
 [![Funding](https://img.shields.io/badge/Project-AI4Grids-%23fcba03?link=https%3A%2F%2Fwww.htwg-konstanz.de%2Fhochschule%2Fprojekte%2Fai4grids%2Fueber-ai4grids%2F.svg)](https://www.htwg-konstanz.de/hochschule/projekte/ai4grids/ueber-ai4grids/)
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/manuela-linke/)
 
+This repository contains the Python code to reproduce the results of our paper ...
+
 This project is used for the development and investigation of a grid optimization tool based on convolutional neural networks (CNNs) with the aim of avoiding supply bottlenecks through intelligent use of the existing grid infrastructure and thus minimizing the need for grid expansion measures.
 
 This project is developed and maintained by [Manuela Linke](https://www.researchgate.net/profile/Manuela-Linke) at the [HTWG Konstanz](https://www.htwg-konstanz.de/). Parts of the code were developed by [Tobias Meßmer](https://www.researchgate.net/profile/Tobias-Messmer-2) and [Gabriel Micard](https://www.researchgate.net/profile/Gabriel-Micard). 
