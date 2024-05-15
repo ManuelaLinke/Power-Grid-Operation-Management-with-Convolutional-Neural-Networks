@@ -104,7 +104,7 @@ Please use the following BibTeX:
 
 This project is licensed under [Apache License 2.0](LICENSE).
 
-## Acknowledgments
+## Acknowledgements
 
 This research was funded by the [Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection (BMUV)](https://www.bmuv.de/) based on a resolution of the German Bundestag as part of the Reasearch Project [AI4Grids](https://www.htwg-konstanz.de/hochschule/projekte/ai4grids/ueber-ai4grids/).
 
