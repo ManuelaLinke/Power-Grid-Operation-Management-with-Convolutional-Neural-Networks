@@ -1,15 +1,15 @@
 # Power Grid Operation Management with Convolutional Neural Networks
 
 [![Python version](https://img.shields.io/badge/python-3.10.*-violet.svg)](https://img.shields.io/badge/python-3.10.*-violet)
-[![Funding](https://img.shields.io/badge/Project-AI4Grids-%23fcba03?link=https%3A%2F%2Fwww.htwg-konstanz.de%2Fhochschule%2Fprojekte%2Fai4grids%2Fueber-ai4grids%2F.svg)](https://img.shields.io/badge/Project-AI4Grids-%23fcba03?link=https%3A%2F%2Fwww.htwg-konstanz.de%2Fhochschule%2Fprojekte%2Fai4grids%2Fueber-ai4grids%2F)
+[![Funding](https://img.shields.io/badge/Project-AI4Grids-%23fcba03?link=https%3A%2F%2Fwww.htwg-konstanz.de%2Fhochschule%2Fprojekte%2Fai4grids%2Fueber-ai4grids%2F.svg)](https://www.htwg-konstanz.de/hochschule/projekte/ai4grids/ueber-ai4grids/)
+[![Linkedin](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/manuela-linke/)
 
 This project is used for the development and investigation of a grid optimization tool based on convolutional neural networks (CNNs) with the aim of avoiding supply bottlenecks through intelligent use of the existing grid infrastructure and thus minimizing the need for grid expansion measures.
 
 This project is developed and maintained by [Manuela Linke](https://www.researchgate.net/profile/Manuela-Linke) at the [HTWG Konstanz](https://www.htwg-konstanz.de/). Parts of the code were developed by [Tobias Meßmer](https://www.researchgate.net/profile/Tobias-Messmer-2) and [Gabriel Micard](https://www.researchgate.net/profile/Gabriel-Micard). 
 
-This research was funded by the [Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection (BMUV)](https://www.bmuv.de/) based on a resolution of the German Bundestag as part of the Reasearch Project [AI4Grids](https://www.htwg-konstanz.de/hochschule/projekte/ai4grids/ueber-ai4grids/).
-
 ![graphical_abtract](/doc/img/Graphical_Abstract_V3.png)
+
 
 ## Highlights
 
@@ -18,12 +18,6 @@ This research was funded by the [Federal Ministry for the Environment, Nature Co
 -   Two approaches investigated for the implementation of input data
 -   Paving the way for further integration of renewable energy sources as well as heat pumps and electrical cars into the existing grid without grid expansion
 
-## For using your own data
-For using these scripts you need to take care, that 
-- the order of nodes in you pandapower grid is the same as the order of loads in the grid
-- If you have nodes that are not connected to a load you need to implement an exeption
-- generations are considered as negative loads
-- loads has to have an additional row for p_max
 
 ## Installation
 
@@ -38,17 +32,6 @@ For using the script to generate the training data:
 
 Note: adjust maximum number of workers to you number of kernels.
 
-## Screenshots
-
-| The virtual grid used in this project | Flowchart of the training data generation algorithm |
-|:-------------------------------------:|:---------------------------------------------------:|
-| ![virtual grid](/doc/img/Cossmic_grid_EN-1.png) | ![flowchart](/doc/img/Dataset_generation.png) |
-
-## Generated Datasets
-
-The Results presented in the associated paper are based oon the generated training datasets with the timestamp:
--   2024-03-22_13-06-27 (smaller dataset to comapre the approaches)
--   2024-03-25_16-56-21 (bigger dataset used for extended training of the physical approach)
 
 ## Dependencies
 
@@ -60,7 +43,29 @@ It leans heavily on the following Python packages:
 -   [numpy](http://www.numpy.org/) for calculations, such as linear algebra and matrix calculations
 -   [matplotlib](https://matplotlib.org/) for plotting
 -   [tensorflow](https://www.tensorflow.org/) and [Keras] (https://keras.io/) for the CNN model 
--   [jupyterlab](https://jupyter.org/) as interactive development environment  
+-   [jupyterlab](https://jupyter.org/) as interactive development environment
+  
+
+## Screenshots
+
+| The virtual grid used in this project | Flowchart of the training data generation algorithm |
+|:-------------------------------------:|:---------------------------------------------------:|
+| ![virtual grid](/doc/img/Cossmic_grid_EN-1.png) | ![flowchart](/doc/img/Dataset_generation.png) |
+
+
+## Generated Datasets
+
+The Results presented in the associated paper are based oon the generated training datasets with the timestamp:
+-   2024-03-22_13-06-27 (smaller dataset to comapre the approaches)
+-   2024-03-25_16-56-21 (bigger dataset used for extended training of the physical approach)
+  
+
+## For using your own data
+For using these scripts you need to take care, that 
+- the order of nodes in you pandapower grid is the same as the order of loads in the grid
+- If you have nodes that are not connected to a load you need to implement an exeption
+- generations are considered as negative loads
+- loads has to have an additional row for p_max
 
 
 ## Contributing and Support
@@ -96,5 +101,7 @@ Please use the following BibTeX:
 This project is licensed under [Apache License 2.0](LICENSE).
 
 ## Acknowledgments
+
+This research was funded by the [Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection (BMUV)](https://www.bmuv.de/) based on a resolution of the German Bundestag as part of the Reasearch Project [AI4Grids](https://www.htwg-konstanz.de/hochschule/projekte/ai4grids/ueber-ai4grids/).
 
 The authors would like to thank [Marcel Arpogaus](https://github.com/MArpogaus) for implementation of the parallelisation of the training process. His contributions have significantly reduced the computational time for the training data generation. Furthermore, the authors thank Jan Weccard for his assistance with the first implementation of the physical approach.
