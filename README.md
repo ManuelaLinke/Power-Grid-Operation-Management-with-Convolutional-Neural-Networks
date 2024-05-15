@@ -19,6 +19,19 @@ This project is developed and maintained by [Manuela Linke](https://www.research
 -   Paving the way for further integration of renewable energy sources as well as heat pumps and electrical cars into the existing grid without grid expansion
 
 
+## Dependencies
+
+This project is written and tested to be compatible with Python 3.10.
+
+It leans heavily on the following Python packages:
+
+-   [pandapower](http://pandapower.org/) for power system modeling, analysis and optimization. 
+-   [numpy](http://www.numpy.org/) for calculations, such as linear algebra and matrix calculations
+-   [matplotlib](https://matplotlib.org/) for plotting
+-   [tensorflow](https://www.tensorflow.org/) and [Keras](https://keras.io/) for the CNN model 
+-   [jupyterlab](https://jupyter.org/) as interactive development environment
+
+  
 ## Installation
 
 Create Environment:
@@ -32,19 +45,6 @@ For using the script to generate the training data:
 
 Note: adjust maximum number of workers to you number of kernels.
 
-
-## Dependencies
-
-This project is written and tested to be compatible with Python 3.10.
-
-It leans heavily on the following Python packages:
-
--   [pandapower](http://pandapower.org/) for power system modeling, analysis and optimization. 
--   [numpy](http://www.numpy.org/) for calculations, such as linear algebra and matrix calculations
--   [matplotlib](https://matplotlib.org/) for plotting
--   [tensorflow](https://www.tensorflow.org/) and [Keras] (https://keras.io/) for the CNN model 
--   [jupyterlab](https://jupyter.org/) as interactive development environment
-  
 
 ## Screenshots
 
@@ -66,6 +66,8 @@ For using these scripts you need to take care, that
 - If you have nodes that are not connected to a load you need to implement an exeption
 - generations are considered as negative loads
 - loads has to have an additional row for p_max
+
+Follow the numeration of the scripts to execute the code.
 
 
 ## Contributing and Support
