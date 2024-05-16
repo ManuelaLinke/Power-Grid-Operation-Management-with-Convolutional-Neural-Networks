@@ -39,6 +39,7 @@ It leans heavily on the following Python packages:
 Create Environment:
 
 ```conda create -n cnn_regler python=3.10.*```
+
 ```pip install -r requirements.txt```
 
 For using the script to generate the training data: 
