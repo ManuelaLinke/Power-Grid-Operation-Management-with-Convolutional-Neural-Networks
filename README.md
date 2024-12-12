@@ -10,12 +10,12 @@ This project is used for the development and investigation of a grid optimizatio
 
 This project is developed and maintained by [Manuela Linke](https://www.researchgate.net/profile/Manuela-Linke) at the [HTWG Konstanz](https://www.htwg-konstanz.de/). Parts of the code were developed by [Tobias Meßmer](https://www.researchgate.net/profile/Tobias-Messmer-2) and [Gabriel Micard](https://www.researchgate.net/profile/Gabriel-Micard). 
 
-![graphical_abtract](/doc/img/Graphical_Abstract_V4.pdf)
+![graphical_abtract](/doc/img/Graphical_Abstract_V4.png)
 
 
 ## Highlights
 
--   Grid operation management based on convolutional neural networks with a maximum accuracy of 99.06 %
+-   Grid operation based on convolutional neural networks with a maximum accuracy of 99.06 %
 -   Application illustrated on real world scenario with virtual grid
 -   Two approaches investigated for the implementation of input data
 -   Paving the way for further integration of renewable energy sources as well as heat pumps and electrical cars into the existing grid without grid expansion
@@ -82,14 +82,14 @@ We warmly invite anyone interested in contributing to this project. If you have 
 
 If you use this project for your research,  we kindly request that you cite the following paper:
 
--   M. Linke, T. Messmer, G. Micard, G. Schubert, [Power Grid Operation Management with Convolutional Neural Networks](), 2024, [Smart Energy](https://www.sciencedirect.com/journal/smart-energy), ..
+-   M. Linke, T. Messmer, G. Micard, G. Schubert, [Power Grid Operation in Distribution Grids with Convolutional Neural Networks](), 2024, [Smart Energy](https://www.sciencedirect.com/journal/smart-energy), 10.1016/j.segy.2024.100169
 
 
 Please use the following BibTeX:
 
     @article{Linke2024,
        author = {M. Linke and T. Messmer and G. Micard and G. Schubert},
-       title = {{Power Grid Operation Management with Convolutional Neural Networks}},
+       title = {{Power Grid Operation in Distribution Grids with Convolutional Neural Networks}},
        journal = {Smart Energy},
        volume = {},
        issue = {},
@@ -97,7 +97,7 @@ Please use the following BibTeX:
        year = {2024},
        eprint = {},
        url = {},
-       doi = {}
+       doi = {10.1016/j.segy.2024.100169}
     }
 
 
