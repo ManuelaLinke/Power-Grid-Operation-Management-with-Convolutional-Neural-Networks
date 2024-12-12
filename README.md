@@ -10,7 +10,7 @@ This project is used for the development and investigation of a grid optimizatio
 
 This project is developed and maintained by [Manuela Linke](https://www.researchgate.net/profile/Manuela-Linke) at the [HTWG Konstanz](https://www.htwg-konstanz.de/). Parts of the code were developed by [Tobias Meßmer](https://www.researchgate.net/profile/Tobias-Messmer-2) and [Gabriel Micard](https://www.researchgate.net/profile/Gabriel-Micard). 
 
-![graphical_abtract](/doc/img/Graphical_Abstract_V4.png)
+![graphical_abtract](/doc/img/Graphical Abstract_V4.png)
 
 
 ## Highlights
