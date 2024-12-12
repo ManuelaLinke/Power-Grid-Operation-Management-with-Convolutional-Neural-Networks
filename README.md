@@ -4,7 +4,7 @@
 [![Funding](https://img.shields.io/badge/Project-AI4Grids-%23fcba03?link=https%3A%2F%2Fwww.htwg-konstanz.de%2Fhochschule%2Fprojekte%2Fai4grids%2Fueber-ai4grids%2F.svg)](https://www.htwg-konstanz.de/hochschule/projekte/ai4grids/ueber-ai4grids/)
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/manuela-linke/)
 
-This repository contains the Python code to reproduce the results of our paper published by SMart Energy Journal (doi:10.1016/j.segy.2024.100169).
+This repository contains the Python code to reproduce the results of our paper published by Smart Energy Journal (doi:10.1016/j.segy.2024.100169).
 
 This project is used for the development and investigation of a grid optimization tool based on convolutional neural networks (CNNs) with the aim of avoiding supply bottlenecks through intelligent use of the existing grid infrastructure and thus minimizing the need for grid expansion measures.
 
