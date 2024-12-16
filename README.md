@@ -81,11 +81,12 @@ We warmly invite anyone interested in contributing to this project. If you have 
 
 If you use this project for your research,  we kindly request that you cite the following paper:
 
--   M. Linke, T. Messmer, G. Micard, G. Schubert, [Power Grid Operation in Distribution Grids with Convolutional Neural Networks](), 2024, [Smart Energy](https://www.sciencedirect.com/journal/smart-energy), 10.1016/j.segy.2024.100169
+M. Linke, T. Meßmer, G. Micard, and G. Schubert, “Power grid operation in distribution grids with convolutional neural networks,” Smart Energy, vol. 17, p. 100169, 2025. Available: https://doi.org/10.1016/j.segy.2024.100169.
 
 
 Please use the following BibTeX:
 
+```
 @article{LINKE2025100169,
   title = {Power grid operation in distribution grids with convolutional neural networks},
   journal = {Smart Energy},
@@ -99,7 +100,7 @@ Please use the following BibTeX:
   keywords = {Power grid operation, Convolutional neural network, Artificial intelligence, Smart grids, Resilient energy system, Sector coupling},
   abstract = {The efficient and reliable operation of power grids is of great importance for ensuring a stable and uninterrupted supply of electricity. Traditional grid operation techniques have faced challenges due to the increasing integration of renewable energy sources and fluctuating demand patterns caused by the electrification of the heat and mobility sector. This paper presents a novel application of convolutional neural networks in grid operation, utilising their capabilities to recognise fault patterns and finding solutions. Different input data arrangements were investigated to reflect the relationships between neighbouring nodes as imposed by the grid topology. As disturbances we consider voltage deviations exceeding 3% of the nominal voltage or transformer and line overloads. To counteract, we use tab position changes of the transformer stations as well as remote controllable switches installed in the grid. The algorithms are trained and tested on a virtual grid based on real measurement data. Our models show excellent results with test accuracy of up to 99.06% in detecting disturbances in the grid and suggest a suitable solution without performing time-consuming load flow calculations. The proposed approach holds significant potential to address the challenges associated with modern grid operation, paving the way for more efficient and sustainable energy systems.}
 }
-
+```
 
 ## Licence
 
