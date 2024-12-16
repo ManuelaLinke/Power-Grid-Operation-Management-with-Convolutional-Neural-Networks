@@ -87,17 +87,17 @@ If you use this project for your research,  we kindly request that you cite the 
 Please use the following BibTeX:
 
 @article{LINKE2025100169,
-title = {Power grid operation in distribution grids with convolutional neural networks},
-journal = {Smart Energy},
-volume = {17},
-pages = {100169},
-year = {2025},
-issn = {2666-9552},
-doi = {https://doi.org/10.1016/j.segy.2024.100169},
-url = {https://www.sciencedirect.com/science/article/pii/S266695522400039X},
-author = {Manuela Linke and Tobias Meßmer and Gabriel Micard and Gunnar Schubert},
-keywords = {Power grid operation, Convolutional neural network, Artificial intelligence, Smart grids, Resilient energy system, Sector coupling},
-abstract = {The efficient and reliable operation of power grids is of great importance for ensuring a stable and uninterrupted supply of electricity. Traditional grid operation techniques have faced challenges due to the increasing integration of renewable energy sources and fluctuating demand patterns caused by the electrification of the heat and mobility sector. This paper presents a novel application of convolutional neural networks in grid operation, utilising their capabilities to recognise fault patterns and finding solutions. Different input data arrangements were investigated to reflect the relationships between neighbouring nodes as imposed by the grid topology. As disturbances we consider voltage deviations exceeding 3% of the nominal voltage or transformer and line overloads. To counteract, we use tab position changes of the transformer stations as well as remote controllable switches installed in the grid. The algorithms are trained and tested on a virtual grid based on real measurement data. Our models show excellent results with test accuracy of up to 99.06% in detecting disturbances in the grid and suggest a suitable solution without performing time-consuming load flow calculations. The proposed approach holds significant potential to address the challenges associated with modern grid operation, paving the way for more efficient and sustainable energy systems.}
+  title = {Power grid operation in distribution grids with convolutional neural networks},
+  journal = {Smart Energy},
+  volume = {17},
+  pages = {100169},
+  year = {2025},
+  issn = {2666-9552},
+  doi = {https://doi.org/10.1016/j.segy.2024.100169},
+  url = {https://www.sciencedirect.com/science/article/pii/S266695522400039X},
+  author = {Manuela Linke and Tobias Meßmer and Gabriel Micard and Gunnar Schubert},
+  keywords = {Power grid operation, Convolutional neural network, Artificial intelligence, Smart grids, Resilient energy system, Sector coupling},
+  abstract = {The efficient and reliable operation of power grids is of great importance for ensuring a stable and uninterrupted supply of electricity. Traditional grid operation techniques have faced challenges due to the increasing integration of renewable energy sources and fluctuating demand patterns caused by the electrification of the heat and mobility sector. This paper presents a novel application of convolutional neural networks in grid operation, utilising their capabilities to recognise fault patterns and finding solutions. Different input data arrangements were investigated to reflect the relationships between neighbouring nodes as imposed by the grid topology. As disturbances we consider voltage deviations exceeding 3% of the nominal voltage or transformer and line overloads. To counteract, we use tab position changes of the transformer stations as well as remote controllable switches installed in the grid. The algorithms are trained and tested on a virtual grid based on real measurement data. Our models show excellent results with test accuracy of up to 99.06% in detecting disturbances in the grid and suggest a suitable solution without performing time-consuming load flow calculations. The proposed approach holds significant potential to address the challenges associated with modern grid operation, paving the way for more efficient and sustainable energy systems.}
 }
 
 
